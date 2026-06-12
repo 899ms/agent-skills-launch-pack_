@@ -1,0 +1,36 @@
+{
+  "name": "account-launch-agent-skills",
+  "version": "0.1.0",
+  "description": "Chinese agent skills for compliant account launch planning across WeChat, Xiaohongshu, Douyin, and X/Twitter.",
+  "skills_dir": "skills",
+  "skills": [
+    {
+      "name": "wechat-account-launch-expert",
+      "display_name": "公众号起号专家",
+      "path": "skills/wechat-account-launch-expert",
+      "entrypoint": "skills/wechat-account-launch-expert/SKILL.md",
+      "tags": ["wechat", "content-strategy", "account-launch", "chinese"]
+    },
+    {
+      "name": "xiaohongshu-account-launch-expert",
+      "display_name": "小红书起号专家",
+      "path": "skills/xiaohongshu-account-launch-expert",
+      "entrypoint": "skills/xiaohongshu-account-launch-expert/SKILL.md",
+      "tags": ["xiaohongshu", "content-strategy", "account-launch", "chinese"]
+    },
+    {
+      "name": "douyin-account-launch-expert",
+      "display_name": "抖音起号专家",
+      "path": "skills/douyin-account-launch-expert",
+      "entrypoint": "skills/douyin-account-launch-expert/SKILL.md",
+      "tags": ["douyin", "short-video", "account-launch", "chinese"]
+    },
+    {
+      "name": "x-twitter-cold-start-expert",
+      "display_name": "X/Twitter 起号专家",
+      "path": "skills/x-twitter-cold-start-expert",
+      "entrypoint": "skills/x-twitter-cold-start-expert/SKILL.md",
+      "tags": ["x", "twitter", "cold-start", "personal-brand", "chinese"]
+    }
+  ]
+}
