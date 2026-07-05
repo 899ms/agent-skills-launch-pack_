@@ -1,5 +1,7 @@
 # 起号专家 Agent Skills / Account Launch Agent Skills
 
+# 想要加入自媒体社群可联系微信：JZX_AI1203
+
 一组面向中文内容运营场景的 agent skills，覆盖微信公众号、小红书、抖音和 X/Twitter 的合规起号、定位、选题、内容计划和复盘。
 
 A bilingual agent skills pack for Chinese content operators, covering compliant account launch planning, positioning, topic systems, content calendars, and review loops for WeChat Official Accounts, Xiaohongshu, Douyin, and X/Twitter.
