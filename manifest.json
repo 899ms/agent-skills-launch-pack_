@@ -31,6 +31,13 @@
       "path": "skills/x-twitter-cold-start-expert",
       "entrypoint": "skills/x-twitter-cold-start-expert/SKILL.md",
       "tags": ["x", "twitter", "cold-start", "personal-brand", "chinese"]
+    },
+    {
+      "name": "channels-account-launch-expert",
+      "display_name": "视频号起号专家",
+      "path": "skills/channels-account-launch-expert",
+      "entrypoint": "skills/channels-account-launch-expert/SKILL.md",
+      "tags": ["channels", "video-account", "account-launch", "chinese"]
     }
   ]
 }

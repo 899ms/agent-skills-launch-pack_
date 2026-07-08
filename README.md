@@ -2,9 +2,9 @@
 
 # 想要加入自媒体AI破局社群可联系微信：JZX_AI1203
 
-一组面向中文内容运营场景的 agent skills，覆盖微信公众号、小红书、抖音和 X/Twitter 的合规起号、定位、选题、内容计划和复盘。
+一组面向中文内容运营场景的 agent skills，覆盖微信公众号、小红书、抖音、视频号和 X/Twitter 的合规起号、定位、选题、内容计划和复盘。
 
-A bilingual agent skills pack for Chinese content operators, covering compliant account launch planning, positioning, topic systems, content calendars, and review loops for WeChat Official Accounts, Xiaohongshu, Douyin, and X/Twitter.
+A bilingual agent skills pack for Chinese content operators, covering compliant account launch planning, positioning, topic systems, content calendars, and review loops for WeChat Official Accounts, Xiaohongshu, Douyin, WeChat Channels (视频号), and X/Twitter.
 
 ## 语言 / Language
 
@@ -22,6 +22,7 @@ A bilingual agent skills pack for Chinese content operators, covering compliant 
 | `wechat-account-launch-expert` | 微信公众号起号、定位、选题库、文章简报、发布节奏和周复盘 |
 | `xiaohongshu-account-launch-expert` | 小红书账号定位、笔记简报、内容日历、转化路径和复盘 |
 | `douyin-account-launch-expert` | 抖音新号冷启动、观看理由、9 条视频实验、互动和复盘 |
+| `channels-account-launch-expert` | 视频号起号、账号定位与人设、爆款内容公式、私域冷启动、数据校准和复盘 |
 | `x-twitter-cold-start-expert` | 中文 X/Twitter 冷启动、定位、回复区曝光、主贴转化和 7 天计划 |
 
 ### 安装
@@ -64,6 +65,7 @@ AGENT_SKILLS_DIR=~/.claude/skills ./install.sh --all
 │   ├── wechat-account-launch-expert/
 │   ├── xiaohongshu-account-launch-expert/
 │   ├── douyin-account-launch-expert/
+│   ├── channels-account-launch-expert/
 │   └── x-twitter-cold-start-expert/
 ├── tools/
 │   └── validate_skills.py
@@ -121,6 +123,7 @@ MIT License. See `LICENSE`.
 | `wechat-account-launch-expert` | WeChat Official Account launch planning, positioning, topic library, article briefs, publishing cadence, and weekly review |
 | `xiaohongshu-account-launch-expert` | Xiaohongshu account positioning, note briefs, content calendar, conversion path, and review loop |
 | `douyin-account-launch-expert` | Douyin cold start planning, viewing reasons, 9-video experiments, interaction design, and performance review |
+| `channels-account-launch-expert` | WeChat Channels (视频号) launch planning, account positioning and persona, viral content formulas, private-domain cold start, data calibration, and review |
 | `x-twitter-cold-start-expert` | Chinese X/Twitter cold start planning, positioning, reply-based discovery, post/thread conversion, and a 7-day execution plan |
 
 ### Install
@@ -163,6 +166,7 @@ List available skills:
 │   ├── wechat-account-launch-expert/
 │   ├── xiaohongshu-account-launch-expert/
 │   ├── douyin-account-launch-expert/
+│   ├── channels-account-launch-expert/
 │   └── x-twitter-cold-start-expert/
 ├── tools/
 │   └── validate_skills.py
